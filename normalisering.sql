@@ -1,4 +1,4 @@
-SE iths;
+USE iths;
 
 DROP TABLE IF EXISTS UNF;
 
