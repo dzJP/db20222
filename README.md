@@ -1,11 +1,14 @@
 # db20222
-<h2><strong>CRUD JDBC</strong></h2>
+
+<h3><strong><em>CRUD JDBC</em></strong></h3>
+
+<h4><strong><em>Step one 1.</em></strong></h4>
 
 >cd ~
 >
 >cd ws
 >
->rm -rf edu-crud-jdbc #Försiktig med denna
+>rm -rf edu-crud-jdbc
 >
 >mkdir edu-crud-jdbc
 >
