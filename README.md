@@ -1,8 +1,8 @@
 # db20222
 
-<h3><strong><em>CRUD JDBC</em></strong></h3>
+<h3><strong><em>CRUD JDBC GUIDE</em></strong></h3>
 
-<h4><strong><em>Step one 2.</em></strong></h4>
+<h4><strong><em>Step 1.</em></strong></h4>
 
 >cd ~
 >
