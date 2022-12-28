@@ -14,15 +14,11 @@
 >
 >cd edu-crud-jdbc
 >
->mkdir -p ./app/src/main/{java/se/iths,resources}
->
->mkdir -p ./app/src/test/{java/se/iths,resources}
->
->touch ./app/src/main/java/se/iths/App.java
->
->touch ./app/src/test/java/se/iths/AppTest.java
->
->touch ./app/build.gradle
+mkdir -p ./app/src/main/{java/se/iths,resources}
+mkdir -p ./app/src/test/{java/se/iths,resources}
+touch ./app/src/main/java/se/iths/App.java
+touch ./app/src/test/java/se/iths/AppTest.java
+touch ./app/build.gradle
 >
 >echo "# edu-crud-jdbc" > README.md
 >
