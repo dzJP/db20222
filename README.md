@@ -51,6 +51,7 @@
 
 <h3><strong><em>Borrow drivers for jdbc to MySQL</em></strong></h3>
 <h4><strong><em>Open vi ./app/build.gradle</h4></strong></em>
+
 >implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.30'
 >
 
