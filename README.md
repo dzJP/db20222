@@ -1,6 +1,4 @@
-# db20222
-
-<h3><strong><em>CRUD JDBC GUIDE</em></strong></h3>
+<h3><strong><em>CRUD JDBC</em></strong></h3>
 
 <h3><strong><em>Instructions</em></strong></h3>
 <h4><strong><em>Step 1.</em></strong></h3>
@@ -16,8 +14,8 @@ mkdir -p ./app/src/test/{java/se/iths,resources}
 touch ./app/src/main/java/se/iths/App.java
 touch ./app/src/test/java/se/iths/AppTest.java
 touch ./app/build.gradle
-echo "# edu-crud-jdbc" > README.md
-echo "rootProject.name = 'edu-jdbc-crud'\ninclude('app')" > settings.gradle
+echo "# foldername" > README.md
+echo "rootProject.name = 'foldername'\ninclude('app')" > settings.gradle
 curl -L https://gist.github.com/miwashiab/987826fc0f2df3cd686a755f38a1c504/raw/build.gradle -o ./app/build.gradle
 curl -L https://gist.github.com/miwashiab/0ca40c177e62925e8dbb973229a4299d/raw/AppTest.java -o ./app/src/test/java/se/iths/AppTest.java
 curl -L https://gist.github.com/miwashiab/629757ac8e86e4caeab6835396be159b/raw/App.java -o ./app/src/main/java/se/iths/App.java
@@ -28,18 +26,22 @@ git commit -m "Initial commit"
 ```
 
 <h3><strong><em>Step 2.</em></strong></h3>
-<h4><strong><em>Borrow drivers for JDBC to MySQL</em></strong></h4>
+<h4><strong><em>Borrow drivers for JDBC to MySQL to make a connection.</em></strong></h4>
 
 ```groovy
-Open vi ./app/build.gradle
+vi ./app/build.gradle
+```
+```groovy
 implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.30'
 ```
 
 <h3><strong><em>AppTest.Java</h3></strong></em>
 
-```java
-Open vi ./app/src/test/java/se/iths/AppTest.java
+```groovy
+vi ./app/src/test/java/se/iths/AppTest.java
+```
 
+```java 
 package se.iths;
 
 
