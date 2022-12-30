@@ -2,7 +2,8 @@
 
 <h3><strong><em>CRUD JDBC GUIDE</em></strong></h3>
 
-<h4><strong><em>Step 1.</em></strong></h4>
+<h3><strong><em>Instructions</em></strong></h3>
+<h4><strong><em>Step 1.</em></strong></h3>
 
 >cd ~
 >
