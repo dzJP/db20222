@@ -9,11 +9,11 @@
 >
 >cd ws
 >
->rm -rf edu-crud-jdbc
+>rm -rf (folder name)
 >
->mkdir edu-crud-jdbc
+>mkdir (folder name)
 >
->cd edu-crud-jdbc
+>cd (folder name)
 >
 <h4><strong><em>Step 2.</em></strong></h4>
 
@@ -59,5 +59,3 @@
 <h3><strong><em>AppTest.Java</h3></strong></em>
 
 >Open vi ./app/src/test/java/se/iths/AppTest.java
-
-[![](https://mermaid.ink/img/pako:eNp1ULsKwzAM_BWjuf0Bry2FQumSNYuwldTg2MGWh5Dk3-skLn1r0p1Op0MjKK8JJFA4GmwDdrUTuSpOmhyLadrv_fiAlbp5b4UU5IK3Nr5rxw0uZTIs9Fk_6cjBuFacTIh8xY6-Jhd8HczFf7v6JwoqRT3HN-lnkpX9EeRnhoPhodyHHXQUOjQ6f2g1rYFvlJdA5lZTg8lyDbVbpJjYV4NTIDkk2kHqNTKVt4Js0Eaa71BAdjc?type=png)](https://mermaid.live/edit#pako:eNp1ULsKwzAM_BWjuf0Bry2FQumSNYuwldTg2MGWh5Dk3-skLn1r0p1Op0MjKK8JJFA4GmwDdrUTuSpOmhyLadrv_fiAlbp5b4UU5IK3Nr5rxw0uZTIs9Fk_6cjBuFacTIh8xY6-Jhd8HczFf7v6JwoqRT3HN-lnkpX9EeRnhoPhodyHHXQUOjQ6f2g1rYFvlJdA5lZTg8lyDbVbpJjYV4NTIDkk2kHqNTKVt4Js0Eaa71BAdjc)
