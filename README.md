@@ -1,7 +1,7 @@
-<h3><strong><em>CRUD JDBC</em></strong></h3>
+<h1><strong><em>CRUD JDBC</em></strong></h1>
 
-<h3><strong><em>Instructions</em></strong></h3>
-<h4><strong><em>Step 1.</em></strong></h3>
+<h2><strong><em>Instructions</em></strong></h2>
+<h3><strong><em>Step 1.</em></strong></h3>
 
 ```bash
 cd ~
@@ -35,7 +35,8 @@ vi ./app/build.gradle
 implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.30'
 ```
 
-<h3><strong><em>AppTest.Java</h3></strong></em>
+<h3><strong><em>Step 3.</em></strong></h3>
+<h4><strong><em>AppTest.Java</em></strong></h4>
 
 ```groovy
 vi ./app/src/test/java/se/iths/AppTest.java
