@@ -1,21 +1,57 @@
 <h3><strong><em>Entity Relationship Diagram</h3></strong></em>
 <h4><strong><em>Redovisning</h4></strong></em>
 
+## Redovisning för kursen DB2022. 
+
 ```mermaid
 erDiagram
-    Student ||--o{ StudentSchool : enrolls
+    Student ||--o{ Phone : has
+    Student }|--o| Grade : has
+    Student ||--o{ StudentSchool : attends
+    School ||--o{ StudentSchool : enrolls
+    Student ||--o{ StudentHobby : has
+    Hobby ||--o{ StudentHobby : involves
+
+
     Student {
         int StudentId
-        string FirstName
-        string LastName
+        string Name
+        int GradeId
     }
-    School ||--o{ StudentSchool : accepts
+
+    Phone {
+        int PhoneId
+        int StudentId
+        tinyint IsHome
+        tinyint IsJob
+        tinyint IsMobile
+        string number
+    }
+
     School {
         int SchoolId
-        string Name
+        string name
         string City
+    }
+
+    StudentSchool {
+        int StudentId
+        int SchoolId
+    }
+
+    Hobby {
+        int HobbyId
+        string name
+    }
+    StudentHobby {
+        int StudentId
+        int HobbyId
+    }
+
+    Grade {
+        int GradeId
+        string name
     }
 
 ```
 
-[![](https://mermaid.ink/img/pako:eNp1ULsKwzAM_BWjuf0Bry2FQumSNYuwldTg2MGWh5Dk3-skLn1r0p1Op0MjKK8JJFA4GmwDdrUTuSpOmhyLadrv_fiAlbp5b4UU5IK3Nr5rxw0uZTIs9Fk_6cjBuFacTIh8xY6-Jhd8HczFf7v6JwoqRT3HN-lnkpX9EeRnhoPhodyHHXQUOjQ6f2g1rYFvlJdA5lZTg8lyDbVbpJjYV4NTIDkk2kHqNTKVt4Js0Eaa71BAdjc?type=png)](https://mermaid.live/edit#pako:eNp1ULsKwzAM_BWjuf0Bry2FQumSNYuwldTg2MGWh5Dk3-skLn1r0p1Op0MjKK8JJFA4GmwDdrUTuSpOmhyLadrv_fiAlbp5b4UU5IK3Nr5rxw0uZTIs9Fk_6cjBuFacTIh8xY6-Jhd8HczFf7v6JwoqRT3HN-lnkpX9EeRnhoPhodyHHXQUOjQ6f2g1rYFvlJdA5lZTg8lyDbVbpJjYV4NTIDkk2kHqNTKVt4Js0Eaa71BAdjc)
