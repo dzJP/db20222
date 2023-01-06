@@ -95,7 +95,6 @@ insert into StudentHobby select distinct Id as StudentId, HobbyId from UNF, Hobb
 
 /* Grade */
 
-drop table if exists Grade;
 DROP TABLE IF EXISTS Grade;
 CREATE TABLE Grade (
     GradeId INT NOT NULL AUTO_INCREMENT,
